@@ -8,16 +8,20 @@ import os
 
 
 def main():
-    count = 0
+    count = range(1, 25)
     # create CyberSecurity-Notes directory
     # os.mkdir('CyberSecurity-Notes')
     root_path = '/Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python'
-    # folders = ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6', 'Week7', 'Week8', 'Week9', 'Week10', 'Week11', 'Week12',
-    # 'Week13', 'Week14', 'Week15', 'Week16', 'Week17', 'Week18', 'Week19', 'Week20', 'Week21', 'Week22', 'Week23', 'Week24']
     for root, dirs, files in os.walk('/Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python'):
-        print("hello")
-        for i in range(24):
-            os.makedirs("Week %d\r\n" % (i+1))
+        x = len(count)
+        print("Number: " + str(x))
+        if x == 24:
+            isTrue = True
+            print("Your files have been created.")
+        else:
+            print("Let's get started...")
+            for i in range(24):
+                os.makedirs("Week %d\r\n" % (i+1))
 
 
 main()
