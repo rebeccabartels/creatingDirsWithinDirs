@@ -14,10 +14,16 @@ def main():
     root_path = '/Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python'
     for root, dirs, files in os.walk('/Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python'):
         x = len(count)
-        print("Number: " + str(x))
+        print("You have " + str(x) + " directories here.")
+        break
         if x == 24:
             isTrue = True
             print("Your files have been created.")
+            # if isTrue == True:
+            # for root, dirs, files in os.walk(root_path):
+            # print(dirs)
+            # print(files)
+
         else:
             print("Let's get started...")
             for i in range(24):
