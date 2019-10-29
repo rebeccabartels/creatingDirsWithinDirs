@@ -1,7 +1,6 @@
 # Create a python script that creates a directory for class notes
 # In the class notes directory, there should be a sub-directory for each week (1-24)
 # In each week sub-directory, should be three sub-directories for days 1-3
-
 # os module will help us navigate our working directories
 import os
 # create the CyberSecurity Notes folder and also set it to a variable called notes_folder
