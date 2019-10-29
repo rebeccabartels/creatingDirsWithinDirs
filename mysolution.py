@@ -1,13 +1,4 @@
 import os
-# print(dir(os))
-# path: /Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python
-
-# os.chdir('/Users/rebeccabartels/cyber-homework/Unit 4 Advanced Python/HW04-Python')
-# print(os.getcwd())
-# print(os.listdir())
-
-
-import os
 # create the CyberSecurity Notes folder and also set it to a variable called notes_folder
 
 
